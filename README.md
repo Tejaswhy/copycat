@@ -9,16 +9,27 @@ To detect potential copyright infringement, the system extracts representative f
 For authenticity verification, the system also supports Rivagan digital watermarking, enabling invisible watermark embedding and extraction for content ownership verification. The application presents the uploaded video alongside the best-matching database video, displays similarity metrics, and classifies the result as either Clean, Possible Copyright, or High-Risk Copyright.
 
 Technologies Used
+
 Python
+
 Streamlit
+
 PyTorch
+
 OpenAI CLIP (ViT-B/32)
+
 OpenCV
+
 Perceptual Hashing (pHash)
+
 Structural Similarity Index (SSIM)
+
 Rivagan Watermarking
+
 NumPy
+
 Pandas
+
 Pillow
 
 This project demonstrates the integration of Artificial Intelligence, Deep Learning, Computer Vision, and Digital Watermarking to build a scalable and practical solution for sports video copyright detection and similarity analysis.
